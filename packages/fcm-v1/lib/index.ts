@@ -17,7 +17,7 @@ interface FCM_MessageOptions {
    */
   token?: string;
   topic?: string;
-  data?: string;
+  data?: Record<string, string>;
   android?: object;
   apns?: object;
 }
